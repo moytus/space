@@ -6,7 +6,7 @@ import { FileText, Calendar, Clock, ChevronRight } from 'lucide-react';
 
 export default function ArticleList() {
   return (
-    <main className="min-h-screen bg-gray-100 p-4 font-mono">
+    <main className="bg-gray-100 p-4 font-mono">
       <div className="max-w-2xl mx-auto">
         <h1 className="text-2xl font-bold text-gray-800 mb-8 flex items-center">
           <FileText className="w-6 h-6 mr-2" />
