@@ -13,7 +13,7 @@ export default function ArticleList() {
           ブログ記事一覧
         </h1>
         <ul className="space-y-6">
-          {allArticles.reverse().map((article) => (
+          {allArticles.sort((a, b) => dayjs(b.publishedAt).diff(dayjs(a.publishedAt))).map((article) => (
             <li key={article.id} className="border-b border-gray-200 pb-4">
               <Link href={`/articles/${article.id}`} className="block hover:bg-gray-50 transition duration-150 ease-in-out">
                 <h2 className="text-xl font-semibold text-gray-800 mb-2">{article.title}</h2>
