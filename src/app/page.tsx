@@ -1,4 +1,5 @@
 import { Construction } from 'lucide-react';
+import ArticleList from '@/components/ArticleList/ArticleList'
 
 export default function Home() {
   return (
@@ -11,6 +12,8 @@ export default function Home() {
           もうしばらくお待ちください。
         </p>
       </div>
+
+      <ArticleList />
     </main>
   );
 }
