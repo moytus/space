@@ -3,6 +3,8 @@ import { allArticles } from 'contentlayer/generated';
 import dayjs from 'dayjs';
 import { FileText, Calendar, Clock, ArrowLeft, ExternalLink } from 'lucide-react';
 
+export const runtime = 'edge';
+
 export default async function Page({ params }: { params: { slug: string } }) {
   const article = allArticles.find(a => a.id === params.slug);
 
