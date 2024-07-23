@@ -14,33 +14,6 @@ export default function Home() {
     <main className="bg-gray-100 flex flex-col min-h-screen">
       <div className="flex-grow p-4 font-sans">
         <div className="max-w-3xl mx-auto">
-          <header className="mb-12 text-center">
-            <h1 className="text-4xl font-bold text-gray-800 mb-4">moytus.dev</h1>
-            <p className="text-xl text-gray-700 mb-6">
-              moyです。生存報告も兼ねてこのサイトを運営しようと思っています。
-            </p>
-            <div className="flex justify-center space-x-4">
-              <a 
-                href="https://twitter.com/moytus" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="bg-blue-500 text-white p-2 rounded-full hover:bg-blue-600 transition-colors"
-                aria-label="Twitter"
-              >
-                <TwitterIcon className="w-6 h-6" />
-              </a>
-              <a 
-                href="https://github.com/moytus" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="bg-gray-700 text-white p-2 rounded-full hover:bg-gray-800 transition-colors"
-                aria-label="GitHub"
-              >
-                <GithubIcon className="w-6 h-6" />
-              </a>
-            </div>
-          </header>
-
           <section className="mb-12 bg-white p-6 rounded-lg shadow-sm">
             <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center">
               <UserIcon className="w-6 h-6 mr-2" /> About Me
