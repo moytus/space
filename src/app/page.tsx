@@ -11,7 +11,7 @@ export default function Home() {
   };
 
   return (
-    <main className="bg-gray-100 flex flex-col min-h-screen">
+    <main className="bg-gray-100 flex flex-col">
       <div className="flex-grow p-4 font-sans">
         <div className="max-w-3xl mx-auto">
           <section className="mb-12 bg-white p-6 rounded-lg shadow-sm">

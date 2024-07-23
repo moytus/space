@@ -10,7 +10,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
 
   if (!article) {
     return (
-      <main className="min-h-screen bg-gray-100 p-4 font-mono">
+      <main className="bg-gray-100 p-4 font-mono">
         <div className="max-w-2xl mx-auto">
           <h1 className="text-xl font-bold text-gray-800 mb-4">404 - 記事が見つかりません</h1>
           <a href="/articles" className="text-blue-700 hover:underline focus:outline-none focus:ring-2 focus:ring-blue-500 inline-flex items-center">
@@ -23,7 +23,7 @@ export default async function Page({ params }: { params: { slug: string } }) {
   }
 
   return (
-    <main className="min-h-screen bg-gray-100 p-4 font-mono">
+    <main className="bg-gray-100 p-4 font-mono">
       <div className="max-w-2xl mx-auto">
         <h1 className="text-2xl font-bold text-gray-800 mb-4 flex items-center">
           <FileText className="w-6 h-6 mr-2" />
